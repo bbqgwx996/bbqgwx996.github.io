@@ -1,21 +1,21 @@
-# 个人网站
+# Personal Website
 
-这是一个使用 HTML、CSS 和 JavaScript 构建的响应式个人网站。
+This is a responsive personal website built with HTML, CSS, and JavaScript.
 
-## 功能特点
+## Features
 
-- 响应式设计，适配移动端和桌面端
-- 个人简介展示
-- 项目展示区域
-- 联系方式部分
-- 现代简约的 UI 设计
+- Responsive design for mobile and desktop
+- Personal profile showcase
+- Project showcase section
+- Contact information section
+- Modern and clean UI design
 
-## 文件结构
+## File Structure
 
-- `index.html` - 主页面
-- `styles.css` - 样式文件
-- `script.js` - JavaScript 交互文件
+- `index.html` - Main page
+- `styles.css` - Stylesheet
+- `script.js` - JavaScript interactions
 
-## 使用方法
+## Usage
 
-直接在浏览器中打开 `index.html` 文件即可查看网站。 
+Simply open `index.html` in your browser to view the website. 

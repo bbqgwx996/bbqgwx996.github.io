@@ -1,4 +1,4 @@
-// 平滑滚动
+// Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// 导航栏滚动效果
+// Navigation bar scroll effect
 let lastScroll = 0;
 const header = document.querySelector('header');
 
@@ -25,18 +25,18 @@ window.addEventListener('scroll', () => {
     }
     
     if (currentScroll > lastScroll && !header.classList.contains('scroll-down')) {
-        // 向下滚动
+        // Scrolling down
         header.classList.remove('scroll-up');
         header.classList.add('scroll-down');
     } else if (currentScroll < lastScroll && header.classList.contains('scroll-down')) {
-        // 向上滚动
+        // Scrolling up
         header.classList.remove('scroll-down');
         header.classList.add('scroll-up');
     }
     lastScroll = currentScroll;
 });
 
-// 添加页面加载动画
+// Add page load animation
 document.addEventListener('DOMContentLoaded', () => {
     document.body.classList.add('loaded');
 }); 
