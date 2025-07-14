@@ -42,8 +42,12 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
-<body>
 
+<body>
+<!-- 返回Home按钮 -->
+<a href="/" style="position: fixed; top: 24px; left: 24px; z-index: 1000; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); padding: 8px 18px; font-weight: bold; color: #3273dc; text-decoration: none; border: 1px solid #eaeaea; transition: background 0.2s;">
+  ← Home
+</a>
 
   <section class="hero">
     <div class="hero-body">
@@ -171,28 +175,28 @@ Finally, this paper successfully fuses the code of object classification detecti
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Object prediction in self-maded img database.png" alt="MY ALT TEXT"/>
+        <img class="centered-img" src="static/images/Object prediction in self-maded img database.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Object prediction results on a custom image database.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Object prediction in real enviroment.png" alt="MY ALT TEXT"/>
+        <img class="centered-img" src="static/images/Object prediction in real enviroment.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Object prediction results in a real-world environment.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/Grasp Position Prediction.png" alt="MY ALT TEXT"/>
+        <img class="centered-img" src="static/images/Grasp Position Prediction.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Predicted grasp positions for detected objects.
        </h2>
      </div>
      <div class="item">
       <!-- Your image here -->
-      <img src="static/images/real-time grasp detection.png" alt="MY ALT TEXT"/>
+      <img class="centered-img" src="static/images/real grasping.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         Real-time grasp detection demonstration.
       </h2>
