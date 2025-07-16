@@ -114,15 +114,13 @@ body {
   overflow: hidden;
 }
 
+/* 让轮播每一项内容上下居中 */
 .results-carousel .item {
-  margin: 5px;
-  overflow: hidden;
-  padding: 20px;
-  font-size: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* 垂直居中 */
+  align-items: center;     /* 水平居中 */
+  height: 400px;           /* 可根据需要调整高度 */
 }
 
 .results-carousel .item img {
