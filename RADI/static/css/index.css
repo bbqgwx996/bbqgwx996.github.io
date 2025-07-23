@@ -152,7 +152,7 @@ body {
   font-size: smaller;
 }
 
-.center-image {
+/* .center-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -162,5 +162,5 @@ body {
   height: auto;
   object-fit: contain;
   background: #fff;
-}
+} */
 
