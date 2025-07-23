@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   justify-content: center; /* 垂直居中 */
   align-items: center;     /* 水平居中 */
-  height: 600px;           /* 调大轮播高度 */
+  height: 800px;           /* 调大轮播高度 */
 }
 
 .results-carousel video {
