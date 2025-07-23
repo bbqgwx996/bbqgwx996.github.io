@@ -120,7 +120,7 @@ body {
   flex-direction: column;
   justify-content: center; /* 垂直居中 */
   align-items: center;     /* 水平居中 */
-  height: 400px;           /* 可根据需要调整高度 */
+  height: 1000px;           /* 可根据需要调整高度 */
 }
 
 .results-carousel video {
