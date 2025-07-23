@@ -123,6 +123,16 @@ body {
   height: 1000px;           /* 可根据需要调整高度 */
 }
 
+.results-carousel .item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;   /* 原来是90%，改小一点 */
+  height: auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-radius: 10px;
+}
+
 .results-carousel video {
   margin: 0;
 }

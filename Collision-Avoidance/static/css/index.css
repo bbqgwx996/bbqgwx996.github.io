@@ -123,6 +123,17 @@ body {
   height: 800px;           /* 调大轮播高度 */
 }
 
+.results-carousel .item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;   /* 原来是90%，改小一点 */
+  max-height: 400px; /* 限制最大高度，可根据需要调整 */
+  height: auto;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-radius: 10px;
+}
+
 .results-carousel video {
   margin: 0;
 }
@@ -136,17 +147,6 @@ body {
 }
 
 
-/* .center-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  max-height: 600px; /* 调大图片最大高度 */
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  background: #fff;
-} */
 
 
 
